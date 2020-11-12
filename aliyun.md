@@ -31,4 +31,16 @@
 4. git pull(把更新的内容下载)
 5. killall node
 6. ./start
+<br>
+## 怎么创建用户名
+```
+adduser frank
+mkdir  /home/frank/.ssh
+cp ~/.ssh/authorized_keys /home/frank/.ssh/
+chmod 755 /home/frank/.ssh/authorized_keys
+chown frank:frank /home/frank/.ssh/authorized_keys
+
+给frank用户创建sudo权限（就是管理者权限）：
+adduser frank sudo
+```
    
