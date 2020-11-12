@@ -27,7 +27,7 @@ var server = http.createServer(function(request, response){
   if(path === '/'){
     response.statusCode = 200
     response.setHeader('Content-Type', 'text/html;charset=utf-8')
-    response.write(`傅菁的大裤衩`)
+    response.write(`傅菁大帅哥`)
     response.end()
   } else if(path === '/x'){
     response.statusCode = 200
